@@ -29,7 +29,7 @@ export default function MovieCard({
         onMouseEnter={handleHover}
         onMouseLeave={handleLeave}
         className="relative h-[10rem] rounded-xl bg-no-repeat bg-cover lg:h-[10.8rem] lg:w-[17.5rem]"
-        style={{ backgroundImage: `url(${img})` }}
+        style={{ backgroundImage: `url("${img}")` }}
       >
         {hovered && (
           <div className="absolute h-full w-full bg-black bg-opacity-50 z-0">
