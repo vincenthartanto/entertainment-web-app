@@ -1,0 +1,48 @@
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-[32px] font-outfit font-light text-white;
+  }
+  h2 {
+    @apply text-[24px] font-outfit font-light text-white;
+  }
+  h3 {
+    @apply text-[24px] font-outfit font-medium text-white;
+  }
+  h4 {
+    @apply text-[18px] font-outfit font-medium text-white;
+  }
+  input {
+    @apply bg-semiDarkBlue  p-4 border-b border-greyishBLue;
+  }
+  button {
+    @apply bg-red rounded-md paragraph-m-thin text-white hover:bg-white hover:text-black p-4;
+  }
+  nav {
+    @apply w-full h-[10%] bg-semiDarkBlue flex justify-between items-center p-4 lg:h-screen lg:w-[8%] lg:flex-col lg:ml-10  lg:rounded-xl lg:py-10;
+  }
+  path {
+    @apply hover:fill-red;
+  }
+}
+@layer components {
+  .paragraph-m {
+    @apply text-[15px] font-outfit font-light text-white;
+  }
+  .paragraph-m-thin {
+    @apply text-[15px] font-outfit font-extralight  text-white;
+  }
+  .paragraph-s {
+    @apply text-[13px] font-outfit font-light text-white;
+  }
+  .paragraph-m-thin {
+    @apply text-[15px] font-outfit font-thin text-white;
+  }
+  .sign-up-button {
+    @apply text-red font-outfit font-light text-[15px] bg-transparent hover:bg-transparent hover:text-white;
+  }
+}
