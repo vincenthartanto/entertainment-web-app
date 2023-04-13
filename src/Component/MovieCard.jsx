@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import Thumbnails from "../assets/thumbnails/112/regular/small.jpg";
-import IconBookmarkEmpty from "../assets/icon-bookmark-empty.svg";
 import MovieDescription from "./MovieDescription";
 import useImage from "../Hooks/useImage";
-import IconPlay from "../assets/icon-play.svg";
+import IconPlay from "../../public/assets/icon-play.svg";
 import { useDispatch } from "react-redux";
 import { MovieSliceAction } from "../Store/MovieSlice";
 export default function MovieCard({

@@ -1,5 +1,5 @@
 import React from "react";
-import IconCategoryMovie from "../assets/icon-category-movie.svg";
+import IconCategoryMovie from "../../public/assets/icon-category-movie.svg";
 export default function MovieDescription({
   year,
   category,

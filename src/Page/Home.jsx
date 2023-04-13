@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import NavigationBar from "../Component/NavigationBar";
+
 import SearchComponents from "../Component/SearchComponents";
-import Thumbnails from "../assets/thumbnails/112/regular/small.jpg";
-import IconBookmarkEmpty from "../assets/icon-bookmark-empty.svg";
+
 import TrendingMovieCard from "../Component/TrendingMovieCard";
-import MovieDescription from "../Component/MovieDescription";
+
 import MovieCard from "../Component/MovieCard";
 import FilmList from "../Component/FilmList";
-import useWindow from "../Hooks/useWindow";
 import PageLayout from "../Layout/PageLayout";
 import ListMovieLayout from "../Layout/ListMovieLayout";
 import { useSelector } from "react-redux";

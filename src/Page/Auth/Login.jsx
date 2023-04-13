@@ -1,5 +1,5 @@
 import React from "react";
-import MovieLogo from "../../assets/logo.svg";
+import MovieLogo from "../../../public/assets/logo.svg";
 import useToggle from "../../Hooks/useToggle";
 export default function Login() {
   const register = useToggle();

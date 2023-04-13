@@ -1,10 +1,10 @@
 import React from "react";
-import MovieLogo from "../assets/logo.svg";
+import MovieLogo from "../../public//assets/logo.svg";
 import HomeIcon from "./Icon/HomeIcon";
 import MovieIcon from "./Icon/MovieIcon";
 import TVSeriesIcon from "./Icon/TVSeriesIcon";
 import BookmarkIcon from "./Icon/BookmarkIcon";
-import ImageAvatar from "../assets/image-avatar.png";
+import ImageAvatar from "../../public/assets/image-avatar.png";
 import useToggle from "../Hooks/useToggle";
 export default function NavigationBar() {
   const homeButton = useToggle(true);

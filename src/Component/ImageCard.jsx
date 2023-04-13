@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import useImage from "../Hooks/useImage";
-import IconPlay from "../assets/icon-play.svg";
+import IconPlay from "../../public//assets/icon-play.svg";
 import { MovieSliceAction } from "../Store/MovieSlice";
 import { useDispatch } from "react-redux";
 export default function ImageCard({ children, Thumbnails, isBookmark, title }) {
