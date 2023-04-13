@@ -23,7 +23,7 @@
     @apply bg-red rounded-md paragraph-m-thin text-white hover:bg-white hover:text-black p-4;
   }
   nav {
-    @apply w-full h-[10%] bg-semiDarkBlue flex justify-between items-center p-4 lg:h-screen lg:w-[8%] lg:flex-col lg:ml-10  lg:rounded-xl lg:py-10;
+    @apply h-[10%] bg-semiDarkBlue flex justify-between items-center p-4 lg:h-screen  lg:flex-col lg:ml-10  lg:rounded-xl lg:py-10 lg:max-w-xs;
   }
   path {
     @apply hover:fill-red;
