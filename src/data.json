@@ -16,7 +16,8 @@
     "category": "Movie",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": true
+    "isTrending": true,
+    "trailerLink":"https://www.youtube.com/embed/qtYWqE55s24"
   },
   {
     "title": "Bottom Gear",
@@ -35,7 +36,8 @@
     "category": "Movie",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": true
+    "isTrending": true,
+    "trailerLink":"https://www.youtube.com/embed/pDBy6CADau8"
   },
   {
     "title": "Undiscovered Cities",
@@ -54,7 +56,8 @@
     "category": "TV Series",
     "rating": "E",
     "isBookmarked": false,
-    "isTrending": true
+    "isTrending": true,
+    "trailerLink":"https://www.youtube.com/embed/9FXCSXuGTF4"
   },
   {
     "title": "1998",
@@ -73,7 +76,8 @@
     "category": "Movie",
     "rating": "18+",
     "isBookmarked": false,
-    "isTrending": true
+    "isTrending": true,
+    "trailerLink":"https://www.youtube.com/embed/0Cg46irSY5A"
   },
   {
     "title": "Dark Side of the Moon",
@@ -92,7 +96,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": true,
-    "isTrending": true
+    "isTrending": true,
+    "trailerLink":"https://www.youtube.com/embed/xTCHodcUutQ"
   },
   {
     "title": "The Great Lands",
@@ -107,7 +112,8 @@
     "category": "Movie",
     "rating": "E",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/lDny3vKBWRk"
   },
   {
     "title": "The Diary",
@@ -122,7 +128,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/8nGcf4tBdF8"
   },
   {
     "title": "Earth’s Untouched",
@@ -137,7 +144,8 @@
     "category": "Movie",
     "rating": "18+",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/okNzOq0R8yE"
   },
   {
     "title": "No Land Beyond",
@@ -152,7 +160,8 @@
     "category": "Movie",
     "rating": "E",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/4oF92lXFpTM"
   },
   {
     "title": "During the Hunt",
@@ -167,7 +176,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/xoWmwsPU5cQ"
   },
   {
     "title": "Autosport the Series",
@@ -182,7 +192,8 @@
     "category": "TV Series",
     "rating": "18+",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/n54yF9B8Ipc"
   },
   {
     "title": "Same Answer II",
@@ -197,7 +208,8 @@
     "category": "Movie",
     "rating": "E",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/7C6X7ivzsEU"
   },
   {
     "title": "Below Echo",
@@ -212,7 +224,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/qwI8y3_Lvto"
   },
   {
     "title": "The Rockies",
@@ -227,7 +240,8 @@
     "category": "TV Series",
     "rating": "E",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/_HgC1TN8FVk"
   },
   {
     "title": "Relentless",
@@ -242,7 +256,8 @@
     "category": "Movie",
     "rating": "PG",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/qQtdWZadxY0"
   },
   {
     "title": "Community of Ours",
@@ -257,7 +272,8 @@
     "category": "TV Series",
     "rating": "18+",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/N5hSpoovMWg"
   },
   {
     "title": "Van Life",
@@ -272,7 +288,8 @@
     "category": "Movie",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/6sxCFZ8_d84"
   },
   {
     "title": "The Heiress",
@@ -287,7 +304,8 @@
     "category": "Movie",
     "rating": "PG",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/pcmfKAhc2TI"
   },
   {
     "title": "Off the Track",
@@ -302,7 +320,8 @@
     "category": "Movie",
     "rating": "18+",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/1Qcm1UMjjoU"
   },
   {
     "title": "Whispering Hill",
@@ -317,7 +336,9 @@
     "category": "Movie",
     "rating": "E",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/OTLRagweHzU"
+    
   },
   {
     "title": "112",
@@ -332,7 +353,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/NP7xu367Y0A"
   },
   {
     "title": "Lone Heart",
@@ -347,7 +369,8 @@
     "category": "Movie",
     "rating": "E",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/8noz13zrf08"
   },
   {
     "title": "Production Line",
@@ -362,7 +385,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/w7iIHB6j72k" 
   },
   {
     "title": "Dogs",
@@ -377,7 +401,8 @@
     "category": "TV Series",
     "rating": "E",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/V4tAtp-TyzQ"
   },
   {
     "title": "Asia in 24 Days",
@@ -392,7 +417,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/kA244xewjcI" 
   },
   {
     "title": "The Tasty Tour",
@@ -407,7 +433,8 @@
     "category": "TV Series",
     "rating": "PG",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/yk5dbwqACrs"
   },
   {
     "title": "Darker",
@@ -422,7 +449,8 @@
     "category": "Movie",
     "rating": "18+",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/rrwycJ08PSA"
   },
   {
     "title": "Unresolved Cases",
@@ -437,7 +465,8 @@
     "category": "TV Series",
     "rating": "18+",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/iPD2hTflr5k"
   },
   {
     "title": "Mission: Saturn",
@@ -452,6 +481,7 @@
     "category": "Movie",
     "rating": "PG",
     "isBookmarked": true,
-    "isTrending": false
+    "isTrending": false,
+    "trailerLink":"https://www.youtube.com/embed/o-Q480iFQ2s"
   }
 ]

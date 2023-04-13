@@ -20,6 +20,7 @@ export default function MoviePage() {
           rating: dt.rating,
           thumbnail: dt.thumbnail.regular,
           isBookmark: dt.isBookmarked,
+          trailerLink: dt.trailerLink,
         });
       }
     });
@@ -50,6 +51,7 @@ export default function MoviePage() {
                   year={dt.year}
                   rating={dt.rating}
                   isBookmark={dt.isBookmark}
+                  trailerLink={dt.trailerLink}
                 ></MovieCard>
               );
             })}
@@ -69,6 +71,7 @@ export default function MoviePage() {
                   category={dt.category}
                   rating={dt.rating}
                   isBookmark={dt.isBookmarked}
+                  trailerLink={dt.trailerLink}
                 ></MovieCard>
               );
             }

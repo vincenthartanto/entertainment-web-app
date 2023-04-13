@@ -9,6 +9,7 @@ import FilmList from "../Component/FilmList";
 import PageLayout from "../Layout/PageLayout";
 import ListMovieLayout from "../Layout/ListMovieLayout";
 import { useSelector } from "react-redux";
+import YoutubeModal from "../Component/YoutubeModal";
 export default function Home() {
   const [search, setSearch] = useState();
   const [results, setResults] = useState([]);
@@ -24,6 +25,7 @@ export default function Home() {
           rating: dt.rating,
           thumbnail: dt.thumbnail.regular,
           isBookmark: dt.isBookmarked,
+          trailerLink: dt.trailerLink,
         });
       }
     });
@@ -44,7 +46,7 @@ export default function Home() {
           <h1>{`Found ${results.length}  results  for '${search}'`}</h1>
           <ListMovieLayout>
             {results.map((dt, index) => {
-              console.log(dt.thumbnail);
+              console.log("list trailer " + dt.trailerLink);
               return (
                 <MovieCard
                   key={index}
@@ -54,6 +56,7 @@ export default function Home() {
                   thumbnails={dt.thumbnail}
                   year={dt.year}
                   rating={dt.rating}
+                  trailerLink={dt.trailerLink}
                 ></MovieCard>
               );
             })}

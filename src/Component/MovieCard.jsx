@@ -4,6 +4,8 @@ import useImage from "../Hooks/useImage";
 import IconPlay from "../../public/assets/icon-play.svg";
 import { useDispatch } from "react-redux";
 import { MovieSliceAction } from "../Store/MovieSlice";
+import YoutubeModal from "./YoutubeModal";
+import useToggle from "../Hooks/useToggle";
 export default function MovieCard({
   title,
   year,
@@ -11,10 +13,12 @@ export default function MovieCard({
   category,
   thumbnails,
   isBookmark,
+  trailerLink,
 }) {
   const dispatch = useDispatch();
   const img = useImage(thumbnails.small, thumbnails.medium, thumbnails.large);
   const [hovered, setHovered] = useState(false);
+  const openVideo = useToggle(false);
   const handleHover = () => {
     setHovered(true);
   };
@@ -30,7 +34,10 @@ export default function MovieCard({
         style={{ backgroundImage: `url("${img}")` }}
       >
         {hovered && (
-          <div className="absolute h-full w-full bg-black bg-opacity-50 z-0">
+          <div
+            onClick={openVideo.changeToggle}
+            className="absolute h-full w-full bg-black bg-opacity-50 z-0"
+          >
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full bg-opacity-30 paragraph-m p-2 flex space-x-2 items-center">
               <img src={IconPlay}></img>
               <p>Play</p>
@@ -68,6 +75,13 @@ export default function MovieCard({
         rating={rating}
         category={category}
       ></MovieDescription>
+
+      {openVideo.isToggle && (
+        <YoutubeModal
+          changeToggle={openVideo.changeToggle}
+          youtubeLink={trailerLink}
+        ></YoutubeModal>
+      )}
     </div>
   );
 }

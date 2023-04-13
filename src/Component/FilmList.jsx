@@ -18,6 +18,7 @@ export default function FilmList() {
               category={dt.category}
               rating={dt.rating}
               isBookmark={dt.isBookmarked}
+              trailerLink={dt.trailerLink}
             ></MovieCard>
           );
         })}

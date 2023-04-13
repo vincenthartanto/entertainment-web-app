@@ -20,6 +20,7 @@ export default function TVSeriesPage() {
           rating: dt.rating,
           thumbnail: dt.thumbnail.regular,
           isBookmark: dt.isBookmarked,
+          trailerLink: dt.trailerLink,
         });
       }
     });
@@ -51,6 +52,7 @@ export default function TVSeriesPage() {
                   year={dt.year}
                   rating={dt.rating}
                   isBookmark={dt.isBookmark}
+                  trailerLink={dt.trailerLink}
                 ></MovieCard>
               );
             })}
@@ -69,6 +71,7 @@ export default function TVSeriesPage() {
                   category={dt.category}
                   rating={dt.rating}
                   isBookmark={dt.isBookmarked}
+                  trailerLink={dt.trailerLink}
                 ></MovieCard>
               );
             }

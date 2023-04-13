@@ -15,6 +15,7 @@ export default function TrendingMovieCard() {
                 isBookmark={dt.isBookmarked}
                 Thumbnails={dt.thumbnail.trending}
                 title={dt.title}
+                trailerLink={dt.trailerLink}
                 key={index}
               >
                 <MovieDescription

@@ -20,6 +20,7 @@ export default function BookmarkPage() {
           rating: dt.rating,
           thumbnail: dt.thumbnail.regular,
           isBookmark: dt.isBookmarked,
+          trailerLink: dt.trailerLink,
         });
       }
     });
@@ -51,6 +52,7 @@ export default function BookmarkPage() {
                   year={dt.year}
                   rating={dt.rating}
                   isBookmark={dt.isBookmark}
+                  trailerLink={dt.trailerLink}
                 ></MovieCard>
               );
             })}
@@ -70,6 +72,7 @@ export default function BookmarkPage() {
                     category={dt.category}
                     rating={dt.rating}
                     isBookmark={dt.isBookmarked}
+                    trailerLink={dt.trailerLink}
                   ></MovieCard>
                 );
               }
@@ -88,6 +91,7 @@ export default function BookmarkPage() {
                     category={dt.category}
                     rating={dt.rating}
                     isBookmark={dt.isBookmarked}
+                    trailerLink={dt.trailerLink}
                   ></MovieCard>
                 );
               }
