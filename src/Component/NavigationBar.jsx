@@ -13,7 +13,7 @@ export default function NavigationBar() {
   const bookmarkButton = useToggle(false);
   return (
     <nav>
-      <img src={MovieLogo}></img>
+      <img className="" src={MovieLogo}></img>
       <div className="flex space-x-4 lg:flex-col lg:items-center lg:space-x-0 lg:space-y-8 ">
         <HomeIcon
           handleOnClick={() => {
@@ -54,7 +54,7 @@ export default function NavigationBar() {
         ></BookmarkIcon>
       </div>
       <img
-        className="border-2 border-white rounded-full w-[10%] lg:w-[60%]"
+        className="border-2 border-white rounded-full w-[4rem] lg:w-[60%]"
         src={ImageAvatar}
       ></img>
     </nav>
